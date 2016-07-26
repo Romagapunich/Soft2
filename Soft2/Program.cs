@@ -13,14 +13,13 @@ namespace Soft2
     {
         public static bool Primery(int number) // метод для проверки на целосность числа
         {
-
             int numbers = number;
             bool prostoe = true;
-
-            if (numbers < 2)                  // что бы не проверять все числа меньше 2 и минусовые 
+            if (numbers < 2) // что бы не проверять все числа меньше 2 и минусовые 
             {
                 return false;
             }
+
             else
             {
                 for (int i = 2; i <= Math.Sqrt(numbers); i++) // проверка просто ли число
@@ -53,7 +52,6 @@ namespace Soft2
             string stringchar = Convert.ToString(number);
             char[] prstchisl = stringchar.ToCharArray();                          // масив числа который изменяем
             char[] prstchislzamen = stringchar.ToCharArray();                  // масив числа от куда берем число для замены
-
             for (int j = 0; j < prstchisl.Length; j++)
             {
 
@@ -86,12 +84,10 @@ namespace Soft2
 
 
             }
-
             if (truefalse == true)
             {
                 return true;
             }
-
             else
             {
                 return false;
@@ -103,18 +99,16 @@ namespace Soft2
         {
             int count = 0;
             string result = String.Empty;
-
             for (int i = 0; i < 1000000; i++)
             {
-
                 if (Sdvig(i) == true)
                 {
                     count++;
                     result += " " + Convert.ToString(i);
                 }
-                
-            }
 
+
+            }
             Console.WriteLine("Количетсов простых чисел " + count);
             Console.WriteLine("Простые числа " + result);
             Console.ReadKey();
