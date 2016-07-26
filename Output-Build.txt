@@ -1,3 +1,0 @@
-﻿1>------ Build started: Project: Soft2, Configuration: Debug Any CPU ------
-1>  Soft2 -> K:\Project C#\ITVDN\Soft2\Soft2\bin\Debug\Soft2.exe
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

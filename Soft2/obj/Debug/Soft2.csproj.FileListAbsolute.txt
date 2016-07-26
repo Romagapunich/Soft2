@@ -1,6 +1,0 @@
-K:\Project C#\ITVDN\Soft2\Soft2\bin\Debug\Soft2.exe.config
-K:\Project C#\ITVDN\Soft2\Soft2\bin\Debug\Soft2.exe
-K:\Project C#\ITVDN\Soft2\Soft2\bin\Debug\Soft2.pdb
-K:\Project C#\ITVDN\Soft2\Soft2\obj\Debug\Soft2.csprojResolveAssemblyReference.cache
-K:\Project C#\ITVDN\Soft2\Soft2\obj\Debug\Soft2.exe
-K:\Project C#\ITVDN\Soft2\Soft2\obj\Debug\Soft2.pdb
